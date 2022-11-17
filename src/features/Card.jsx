@@ -108,6 +108,12 @@ const Card = () => {
                 fill: false,
                 borderColor: "#742774",
               },
+              {
+                label: "Deaths",
+                data: detail.map((item) => item.Deaths),
+                fill: false,
+                borderColor: "#ff0000",
+              },
             ],
           }}
         />
